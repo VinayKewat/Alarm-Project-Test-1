@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alaram Clock</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+     
+ <div id="title">
+     <h1>
+         Alaram Clock
+     </h1>
+ </div>
+
+
+ <div class="table">
+  <div class="cell">
+    <h1 id="clock" class="clock"></h1>
+    
+    <select id="hours"></select>
+    <select id="minutes"></select>
+    <select id="seconds"></select>
+    <select id="ampm">
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+    
+    <p>
+      <button id="snooze" class="hide">Snooze</button>
+      <button id="startstop">Set Alarm</button>
+    </p>
+
+
+
+
+    <div class="box-canvas">
+      <div class="handle"></div>
+      <div class="bell-left bell"></div>
+      <div class="bell-right bell"></div>
+      <div class="clock-face">
+        <div class="twelve tick"></div>
+        <div class="six tick"></div>
+        <div class="hour-hand hand"></div>
+        <div class="minute-hand hand"></div>
+      </div>
+    </div>
+
+    
+  </div>
+</div>
+
+
+
+   
+
+
+
+  </body>
+    
+<script src="a.js"></script>
+</html>
